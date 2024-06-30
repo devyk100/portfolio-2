@@ -98,9 +98,9 @@ function ScrollSection() {
         scrollTrigger: {
           trigger: triggerRef.current,
           start: "top top",
-          end: "1000 top",
+          end: "500 top",
           scrub: 0.6,
-          snap: "labels",
+          // snap: "labels",
           pin: true,
         },
       }

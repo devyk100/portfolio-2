@@ -4,14 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Start from './components/start'
 import Projects from './components/projects'
+import Experience from './components/experience'
 
 function App() {
   const [count, setCount] = useState(0)
   // const component = useRef<HTMLDivElement>(null)
   return (
     <main>
-      <Start/>
-      <Projects />
+        <Start/>
+        <Projects />
+      <Experience />
     </main>
   )
 }
